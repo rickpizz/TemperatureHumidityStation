@@ -1,0 +1,8 @@
+______________LINKS________________
+
+GitHub: https://github.com/rickpizz/TemperatureHumidityStation
+
+Vídeo YouTube: https://youtu.be/5kIJzzGG9I8
+
+
+**** Vídeos não inclusos no repositório pois excede 25MB (tamanho máximo suportado pelo Github).
