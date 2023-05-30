@@ -25,11 +25,11 @@ Permitirá uma maior área de trabalho, organização, e possibilitará a gamifi
 ![image](https://user-images.githubusercontent.com/48699967/119746323-a0e16600-be66-11eb-8ba0-b01b6dbcded1.png)
 
 
-* **Sensor de Temperatura e Humidade DHT11**
+* **Sensor de Temperatura e Humidade RHT1**
 
 O sensor será responsável por medir a temperatura e Humidade do ambiente em que está inserido, e comunicará estes dados para o seu microcontrolador.
 
-![image](https://user-images.githubusercontent.com/48699967/119746337-a9d23780-be66-11eb-8308-3de225f12d6d.png)
+![rht1](https://github.com/rickpizz/TemperatureHumidityStation/assets/28661500/9da729a0-3a41-4840-b53c-c0c0e853470d)
 
 
 * **Jumpers**
