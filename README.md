@@ -105,7 +105,8 @@ Feito pela IBM e demonstrado em aula, é uma plataforma desenvolvida para intera
 Para efeitos de diagramação, representação digital e testes de hardware, foi utilizado o Fritzing, plataforma open source com objetivos e aplicabilidade que se encaixam no contexto do projeto. Os diagramas estão nos arquivos do repositório.
 
 ![DIAGRAMAScircuitoEELETRO_Esquemático](https://user-images.githubusercontent.com/48699967/119746268-72638b00-be66-11eb-83a9-34591408aefa.png)
-![DIAGRAMAScircuitoEELETRO_bb](https://user-images.githubusercontent.com/48699967/119746269-7394b800-be66-11eb-8a7c-3e59dc0640ac.png)
+
+![DIAGRAMAScircuitoEELETRO_bb](https://github.com/rickpizz/TemperatureHumidityStation/blob/0e84dffdd0fead6697dc179181647dec0553b315/TemperatureMumidityStation/DIAGRAMAScircuitoELETRO_bb.jpeg)
 
 
 
