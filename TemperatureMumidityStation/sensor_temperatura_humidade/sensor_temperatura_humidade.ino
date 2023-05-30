@@ -1,11 +1,11 @@
-#include "DHT.h"
+#include "RHT.h"
 #include <Servo.h>
 
-#define DHTPIN 5
+#define RHTPIN 5
 
-#define DHTTYPE DHT11
+#define RHTTYPE RHT1
 
-DHT dht(DHTPIN, DHTTYPE);
+RHT dht(RHTPIN, RHTTYPE);
 Servo servo;
 float pos = 0;
 
@@ -14,22 +14,22 @@ void setup()
   Serial.begin(9600);
   servo.attach(6);
 
-  dht.begin();
+  rht.begin();
 }
 
 void loop()
 {
   delay(2000);
 
-  float h = dht.readHumidity();
+  float h = rht.readHumidity();
 
-  float t = dht.readTemperature();
+  float t = rht.readTemperature();
 
-  float f = dht.readTemperature(true);
+  float f = rht.readTemperature(true);
 
-  float hif = dht.computeHeatIndex(f, h);
+  float hif = rht.computeHeatIndex(f, h);
 
-  float hic = dht.computeHeatIndex(t, h, false);
+  float hic = rht.computeHeatIndex(t, h, false);
 
   pos = t * 3.6;
   servo.write(pos);
